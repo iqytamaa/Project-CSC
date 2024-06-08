@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model todolist {
+  id Int @id @default(autoincrement())
+  title String 
+  detail String ?
+  done Boolean @default(false)
+  createdAt DateTime @default(now())
+}
+
+// Ini adalah konfigurasi Prisma yang terdiri dari pengaturan untuk menghasilkan Prisma Client dalam bahasa JavaScript, konfigurasi sumber data yang menentukan penggunaan database SQLite, dan definisi model todolist yang akan digunakan dalam aplikasi.

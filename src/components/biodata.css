@@ -1,0 +1,107 @@
+/* Style untuk body */
+body {
+    height: 100svh; /* Tinggi 100% dari viewport */
+    font-family: 'Times New Roman', Times, serif; /* Menggunakan font Times New Roman */
+    background-image: url('space.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Mengisi seluruh area background */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+}
+
+/* Style untuk tabel */
+table {
+    margin-left: 150px;
+    border-collapse: collapse; /* Menggabungkan batas sel tabel */
+    width: 80%; /* Lebar tabel 80% dari lebar kontainer */
+    margin-top: 20px; /* Jarak atas 20px dari kontainer */
+    box-shadow: 0 4px 8px rgba(235, 11, 11, 0.885).1; /* Bayangan pada tabel */
+}
+
+/* Style untuk sel header dan data */
+th, td {
+    padding: 15px;  /* Padding pada sel */
+    border-bottom: 1px solid #ddd; /* Garis bawah setiap sel */
+}
+
+/* Style untuk class dan id */
+.center-text {
+    text-align: center; /* Teks rata tengah */
+    color: red; /* Warna teks */
+}
+
+/* Style untuk id biodata-header */
+#biodata-header {
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    background-color: #94da96; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    font-weight: bold; /* Teks tebal */
+    font-size: 1.5em; /* Ukuran teks */
+    padding: 20px; /* Padding pada sel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks */
+}
+
+
+/* Style untuk sel foto */
+.photo-cell {
+    width: 200px; /* Lebar sel */
+    height: 300px; /* Tinggi sel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan pada sel */
+    border-radius: 8px; /* Sudut lengkung */
+    overflow: hidden; /* Menghilangkan overflow */
+    background-color: yellowgreen; /* Warna latar belakang */
+}
+
+/* Style untuk gambar */
+img {
+    width: 100%; /* Lebar gambar */
+    height: 100%; /* Tinggi gambar */
+    object-fit: cover; /* Menyesuaikan gambar ke area sel */
+}
+
+/* Style untuk unordered list */
+ul {
+    background-color: rgb(251, 133, 7); /* Warna latar belakang */
+    list-style-type: none; /* Menghilangkan bullet list */
+    text-align: left; /* Teks rata kiri */
+    margin-left: 0; /* Menghilangkan margin kiri */
+    padding-left: 20px; /* Padding kiri */
+}
+
+/* Style untuk list item */
+ul li {
+    margin-bottom: 10px; /* Jarak antar item */
+}
+
+/* Style untuk baris data */
+.data-row1 {
+    background-color: pink; /* Warna latar belakang */
+    color: black; /* Warna teks */
+}
+
+.data-row2 {
+    background-color: rgb(158, 242, 2); /* Warna latar belakang */
+    color: rgb(84, 108, 102); /* Warna teks */
+}
+
+.data-row3 {
+    background-color: rgb(237, 8, 233); /* Warna latar belakang */
+    color: aqua; /* Warna teks */
+}
+
+.data-row4 {
+    background-color: white; /* Warna latar belakang */
+    color: rgb(36, 26, 14); /* Warna teks */
+}
+
+.data-row5 {
+    background-color: rgb(93, 52, 52); /* Warna latar belakang */
+    color: bisque; /* Warna teks */
+}
+
+.data-row6 {
+    background-color: rgb(30, 115, 146); /* Warna latar belakang */
+}
+
+.data-row7 {
+    background-color: rgb(242, 70, 7); /* Warna latar belakang */
+    color: yellow; /* Warna teks */
+}
